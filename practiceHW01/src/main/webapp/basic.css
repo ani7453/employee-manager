@@ -1,0 +1,67 @@
+
+@charset "UTF-8";
+
+body{
+	background-image: radial-gradient(#0915bd 4px, transparent 4px), radial-gradient(#0915bd 4px, transparent 4px);
+	background-size: 60px 60px;
+	background-position: 0 0, 30px 30px;
+	background-color: #2058f4;							
+}
+
+.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    background-color: white;
+}
+
+.dark{
+	 -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+	background-color: grey;
+}
+
+table{
+	background-color: white;
+	text-align: center;
+	width: 75%;
+ 	border-collapse: collapse;
+ 	-webkit-box-shadow: 17px 10px 6px -4.5px #29304f;
+	-moz-box-shadow: 17px 10px 6px -4.5px #29304f;
+	box-shadow: 17px 10px 6px -4.5px #29304f;
+	
+}
+
+header{
+	-webkit-box-shadow: 17px 10px 6px -4.5px #29304f;
+	-moz-box-shadow: 17px 10px 6px -4.5px #29304f;
+	box-shadow: 17px 10px 6px -4.5px #29304f;
+	height: 100px;
+}
+
+div{
+	width: 50%;
+	text-align: center;
+}
+
+div.a{
+	width: 50%;
+	text-align: left;
+}
+
+header.text{
+	margin-top: 25px;
+	text-align: center;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+  width: 75%;
+  padding: 10px;
+}

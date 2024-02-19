@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" 
+xmlns="http://java.sun.com/xml/ns/j2ee" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+<!-- Employee Servlet --> 
+	<servlet>
+		<description></description>
+		<display-name>ConEmpDelete</display-name>
+		<servlet-name>ConEmpDelete</servlet-name>
+		<servlet-class>Controller.ConEmpDelete</servlet-class>
+	</servlet>
+	<servlet>
+		<description></description>
+		<display-name>ConEmpUpdate</display-name>
+		<servlet-name>ConEmpUpdate</servlet-name>
+		<servlet-class>Controller.ConEmpUpdate</servlet-class>
+	</servlet>
+	<servlet>
+		<description></description>
+		<display-name>ConEmpCreate</display-name>
+		<servlet-name>ConEmpCreate</servlet-name>
+		<servlet-class>Controller.ConEmpCreate</servlet-class>
+	</servlet>
+<!-- Department Servlet -->	
+	<servlet>
+		<description></description>
+		<display-name>ConDepartCreate</display-name>
+		<servlet-name>ConDepartCreate</servlet-name>
+		<servlet-class>Controller.ConDepartCreate</servlet-class>
+	</servlet>
+	<servlet>
+		<description></description>
+		<display-name>ConDepartUpdate</display-name>
+		<servlet-name>ConDepartUpdate</servlet-name>
+		<servlet-class>Controller.ConDepartUpdate</servlet-class>
+	</servlet>
+	<servlet>
+		<description></description>
+		<display-name>ConDepartDelete</display-name>
+		<servlet-name>ConDepartDelete</servlet-name>
+		<servlet-class>Controller.ConDepartDelete</servlet-class>
+	</servlet>
+ 
+	
+<!-- Employee Mapping -->
+	<servlet-mapping>
+		<servlet-name>ConEmpDelete</servlet-name>
+		<url-pattern>/ConEmpDelete</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ConEmpUpdate</servlet-name>
+		<url-pattern>/ConEmpUpdate</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ConEmpCreate</servlet-name>
+		<url-pattern>/ConEmpCreate</url-pattern>
+	</servlet-mapping>
+<!-- Department Mapping -->
+	<servlet-mapping>
+		<servlet-name>ConDepartCreate</servlet-name>
+		<url-pattern>/ConDepartCreate</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ConDepartUpdate</servlet-name>
+		<url-pattern>/ConDepartUpdate</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ConDepartDelete</servlet-name>
+		<url-pattern>/ConDepartDelete</url-pattern>
+	</servlet-mapping>
+ 
+</web-app>
